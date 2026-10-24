@@ -4,7 +4,7 @@ import { GraduationCap } from "lucide-react";
 
 const items = [
   { degree: "Master of Computer Applications (MCA)", school: "School of Management Sciences, Varanasi", year: "2023 – 2025", score: "CGPA: 7.48" },
-  { degree: "Bachelo of Computer Apllication (BCA)", school: "Graduation", year: "2020 – 2023", score: "Computer Science" },
+  { degree: "Bachelor of Computer Applications (BCA)", school: "Graduation", year: "2020 – 2023", score: "Computer Science" },
   { degree: "Intermediate (12th)", school: "U.P. Board", year: "2019 – 2020", score: "PCM" },
   { degree: "High School (10th)", school: "U.P. Board", year: "2017 – 2018", score: "" },
 ];

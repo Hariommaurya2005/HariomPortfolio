@@ -104,7 +104,7 @@ export function Hero() {
             className="mt-16 grid grid-cols-3 gap-4 md:gap-8"
           >
             {[
-              { k: "7.6", v: "MCA CGPA" },
+              { k: "7.48", v: "MCA CGPA" },
               { k: "6+", v: "Months Internship" },
               { k: "1", v: "Featured Project" },
             ].map((s) => (
