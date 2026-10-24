@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import { Download, Mail, Github, MapPin, Sparkles } from "lucide-react";
 
 const roles = [
-  "Software Developer",
   "MERN Stack Developer",
   "Problem Solver",
   "MCA Student",
@@ -51,7 +50,7 @@ export function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
             </span>
-            Open to Software Developer Roles
+            Open to MERN Stack Developer Roles
           </div>
 
           <h1 className="font-display text-4xl font-bold leading-[1.05] tracking-tight md:text-6xl lg:text-7xl">
