@@ -11,7 +11,7 @@ const highlights = [
 
 export function About() {
   return (
-    <Section id="about" eyebrow="About" title="A developer in the making" description="MCA student at School of Management Sciences, Varanasi — focused on shipping quality software.">
+    <Section id="about" eyebrow="About" title="A developer in the making" description="MCA student at G.L. Bajaj Institute of Technology and Management — focused on shipping quality software.">
       <div className="grid gap-8 lg:grid-cols-5">
         <motion.div
           initial={{ opacity: 0, x: -20 }}
@@ -30,10 +30,7 @@ export function About() {
             </div>
           </div>
           <p className="mt-6 text-sm leading-relaxed text-muted-foreground">
-            I'm an MCA student with a 7.48 CGPA and a 6-month full-stack
-            internship under my belt. I love building responsive web apps,
-            learning modern technologies, and grinding through coding
-            challenges.
+           I'm an MCA student with a 7.52 CGPA and six months of full-stack development internship experience. I enjoy building responsive, user-friendly web applications and turning ideas into practical solutions. I'm passionate about exploring modern technologies, strengthening my problem-solving skills through DSA, and continuously growing as a software developer.
           </p>
           <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
             Right now I'm actively preparing for Software Developer and Full
@@ -43,7 +40,7 @@ export function About() {
           <div className="mt-6 grid grid-cols-2 gap-3 text-xs">
             <div className="rounded-xl border border-border/60 p-3">
               <div className="text-muted-foreground">Degree</div>
-              <div className="mt-1 font-semibold">MCA · SMS Varanasi</div>
+              <div className="mt-1 font-semibold">MCA · G.L. Bajaj Institute of Technology and Management</div>
             </div>
             <div className="rounded-xl border border-border/60 p-3">
               <div className="text-muted-foreground">Focus</div>

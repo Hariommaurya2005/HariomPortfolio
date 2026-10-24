@@ -3,10 +3,10 @@ import { Section } from "./Section";
 import { GraduationCap } from "lucide-react";
 
 const items = [
-  { degree: "Master of Computer Applications (MCA)", school: "School of Management Sciences, Varanasi", year: "2023 – 2025", score: "CGPA: 7.48" },
-  { degree: "Bachelor of Computer Applications (BCA)", school: "Graduation", year: "2020 – 2023", score: "Computer Science" },
-  { degree: "Intermediate (12th)", school: "U.P. Board", year: "2019 – 2020", score: "PCM" },
-  { degree: "High School (10th)", school: "U.P. Board", year: "2017 – 2018", score: "" },
+  { degree: "Master of Computer Applications (MCA)", school: "G.L. Bajaj Institute of Technology and Management", year: "2023 – 2025", score: "CGPA: 7.52" },
+  { degree: "Bachelor of Computer Applications (BCA)", school: "School of Management Sciences, Varanasi", year: "2020 – 2023", score: "CGPA: 7.18" },
+  { degree: "Intermediate (12th)", school: "U.P. Board", year: "2020 – 2021", score: "73%" },
+  { degree: "High School (10th)", school: "U.P. Board", year: "2018 – 2019", score: "79.65%" },
 ];
 
 export function Education() {
