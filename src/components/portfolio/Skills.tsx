@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import { Section } from "./Section";
 
@@ -97,11 +98,12 @@ export function Skills() {
 
             <div className="space-y-3">
               {g.items.map((it) => (
-                <div key={it.n} key={it.n}>
+                <div key={it.n}>
                   <div className="mb-1 flex justify-between text-xs">
                     <span className="font-medium text-foreground">
                       {it.n}
                     </span>
+
                     <span className="font-mono text-muted-foreground">
                       {it.p}%
                     </span>
@@ -112,7 +114,10 @@ export function Skills() {
                       initial={{ width: 0 }}
                       whileInView={{ width: `${it.p}%` }}
                       viewport={{ once: true }}
-                      transition={{ duration: 0.9, ease: "easeOut" }}
+                      transition={{
+                        duration: 0.9,
+                        ease: "easeOut",
+                      }}
                       className="h-full rounded-full bg-gradient-primary"
                     />
                   </div>
